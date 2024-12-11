@@ -62,4 +62,3 @@ jobs:
         app-name: mat-webapp  # Replace with your Azure Web App name
         images: ${{ env.REGISTRY_LOGIN_SERVER }}/${{ env.IMAGE_BASE_NAME }}:${{ github.ref_name }}-latest
 
-        
